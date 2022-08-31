@@ -1,0 +1,70 @@
+.dashboard {
+  width: 84%;
+}
+
+.dashboard-stats {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #283046;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Marine;
+  font-weight: Bold;
+}
+
+.statsitem {
+  background-color: inherit;
+  color: #ffffff;
+  width: 33.333%;
+  padding: 20px;
+}
+
+.itemContainer,
+.itemsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.itemsText {
+  flex-direction: column;
+  text-align: start;
+}
+.itemsText span {
+  display: block;
+  width: 80%;
+}
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 60px;
+}
+.circle img {
+  top: 25%;
+  left: 30%;
+  position: relative;
+  width: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .statsitem {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .statsitem {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dashboard {
+    width: 100%;
+  }
+  .dashboard-stats {
+    width: 100%;
+  }
+}

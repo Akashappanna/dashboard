@@ -1,0 +1,203 @@
+.dashboard-list {
+  margin: 20px auto;
+  background-color: #283046;
+  width: 95%;
+  height: max-content;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  /* character-spacing: 0;
+  line-spacing: 14; */
+}
+
+.listentries {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  position: relative;
+  font-size: 18px;
+}
+
+input,
+select {
+  margin: 0px 10px;
+  outline: none;
+  border-radius: 9px;
+  padding: 10px;
+  border: 2px solid #707070;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.optionSelect {
+  text-align: right;
+}
+
+.table {
+  /* height: 140vh; */
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.table-header {
+  background-color: #271c1c;
+  color: white;
+  padding: 20px;
+  border: 2px solid #707070;
+  /* position: fixed;
+  width: 75%; */
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+tr {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: max-content;
+  border-bottom: 2px solid #707070;
+}
+
+th {
+  width: 50%;
+  text-align: start;
+}
+td {
+  color: white;
+  width: 50%;
+  text-align: start;
+  padding: 15px 0px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.selectDuration {
+  border: 2px solid #707070;
+  border-radius: 9px;
+  padding: 5px;
+  font-weight: 550;
+  width: 200px;
+  cursor: pointer;
+}
+.datepicker {
+  position: absolute;
+  top: 100%;
+  /* left: 0%; */
+  bottom: 0%;
+  right: 0%;
+  display: none;
+}
+.active {
+  display: inline-block;
+}
+.paginateTop {
+  width: 100%;
+}
+.paginateContainer {
+  background-color: #161c327d;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: max-content;
+  float: right;
+}
+
+.isloading {
+  width: max-content;
+  margin: auto;
+}
+.isloading img {
+  width: 100%;
+}
+
+.isloading p {
+  font-size: 20px;
+  color: white;
+}
+.iosAndroid {
+  display: flex;
+  flex-direction: column;
+}
+.iosAndroid img {
+  width: 12px;
+  margin: 0px 5px;
+}
+/* .iosAndroid span {
+  float: left;
+} */
+/* 
+.my-custom-select [slot='button'] {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.my-custom-select button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+.my-custom-select button::before {
+  content: '\25BC';
+}
+.my-custom-select [popup] {
+  padding: 0;
+}
+.my-custom-select .section {
+  padding: 1rem 0 0;
+  background: radial-gradient(
+    ellipse 60% 50px at center top,
+    #000a 0%,
+    transparent 130%
+  );
+}
+.my-custom-select h3 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: white;
+}
+.my-custom-select option {
+  text-align: center;
+  padding: 0.5rem; 
+}*/
+
+@media screen and (max-width: 768px) {
+  tr {
+    width: 900px;
+  }
+  .dashboard-list {
+    width: 100%;
+  }
+  .listentries,
+  select {
+    font-size: 11px;
+  }
+  .listentries {
+    flex-direction: column;
+  }
+  .datepicker {
+    position: static;
+    width: 100%;
+  }
+}

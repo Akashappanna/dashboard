@@ -1,0 +1,47 @@
+.wrapper {
+  background-color: #161c32;
+}
+
+.wrapperHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headers {
+  color: #707070;
+  margin: 10px 10px;
+}
+
+.close {
+  background-color: #283046;
+}
+.close img {
+  color: #707070;
+}
+
+.wrapperFooter {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn {
+  color: #707070;
+  border: 2px solid #707070;
+  background-color: #161c32;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.wrapper-btn {
+  background-color: #482cdd;
+  color: white !important;
+  border: none;
+}

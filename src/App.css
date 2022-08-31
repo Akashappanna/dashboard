@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  background-color: #161c32;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+@font-face {
+  font-family: 'Marine';
+  src: url('./assests/fonts/Marine-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assests/fonts/Roboto-Medium.woff') format('woff');
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
